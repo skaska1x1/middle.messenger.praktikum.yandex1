@@ -5,12 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sprint_1 веб-приложение "Чат"</title>
+    <link rel="stylesheet" href="./src/components/styles/style.css">
 </head>
 
 <body>
 
-    <header>sprint_1 веб-приложение "Чат"</header>
-    <h1>222</h1>
+    <main class="main">
+        <div class="container">
+
+            <form action="./src/layout/signin/signin.html" class="main__form">
+                <h1 class="title">Вход</h1>
+                <input type="text" placeholder="Введите логин">
+                <input type="text" placeholder="Введите пароль">
+                <button > Войти</button> 
+            </form>
+
+            <form action="./src/layout/register/register.html" class="main__form-reg">
+                <button class="title">Зарегистрироваться</button>
+            </form>
+
+
+        </div>
+
+
+    </main>
+    
 
     <script src="./src/index.js" type="module"></script>
 </body>
