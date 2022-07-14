@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "parcel serve index.html --open --port 3000",
-    "build": "parcel index.html build index.html"
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
