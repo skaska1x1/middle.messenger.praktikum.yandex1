@@ -7,7 +7,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
-    background-color: rgb(221, 199, 199);
+    background-color: rgb(238 217 217);
 }
 
 .main {
@@ -15,6 +15,8 @@ body {
     justify-content: space-between;
 }
 .container {
+    padding: 1rem;
+    min-width: 500px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -22,11 +24,11 @@ body {
 }
 .main__form{
     margin-top: 10px;
-    padding: 1rem;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    /* border: 1px solid #000; */
+    border-radius: 2rem;
     background-color: #fff;
 }
 .main__form-reg {
@@ -40,4 +42,59 @@ body {
 }
 .title {
     text-align: center;
+    font-size: 30px;
+    letter-spacing: .3rem;
+}
+.login input{
+    width: 100%;
+    padding: .3rem;
+    outline: 0;
+    border: none;
+    border-bottom: .1px solid #000;
+}
+.login input:hover{
+    cursor: pointer;
+}
+.password input{
+    width: 100%;
+    padding: .3rem;
+    outline: 0;
+    border: none;
+    border-bottom: .1px solid #000;
+}
+.password input:hover{
+    cursor: pointer;
+}
+
+.signin {
+    border-radius: 11rem;
+    border: none;
+    padding: .6rem;
+    transition: all 1s ease;
+    background-color: rgb(39, 75, 153);
+    color: #fff;
+    font-size: 22px;
+}
+.signin:hover{
+    cursor: pointer;
+    background-color: rgb(107, 134, 193);
+}
+
+.registration {
+    background-color: rgb(240 231 231);
+    border-radius: 11rem;
+    padding: .6rem;
+    transition: all 1s ease;
+    text-align: center;
+}
+.registration:hover{
+    background-color: rgb(239, 225, 225);
+}
+.registration a {
+    text-decoration: none;
+    color: #000;
+    transition: all 1s ease;
+}
+.registration a:hover{
+    background-color: rgb(239, 225, 225);
 }

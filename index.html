@@ -14,15 +14,29 @@
         <div class="container">
 
             <form action="./src/layout/signin/signin.html" class="main__form">
-                <h1 class="title">Вход</h1>
-                <input type="text" placeholder="Введите логин">
-                <input type="text" placeholder="Введите пароль">
-                <button > Войти</button> 
+                <p class="title">Войти</p>
+
+                <div class="login">
+                    <p>Логин</p>
+                    <input type="text" >
+                </div>
+
+                <div class="password">
+                    <p>Пароль</p>
+                    <input type="text" >
+                </div>
+
+                <button class="signin" > Авторизоваться </button> 
+
+                <div class="registration">
+                    <a href="./src/layout/register/register.html">Зарегистрироваться</a>
+                </div>
+                
             </form>
 
-            <form action="./src/layout/register/register.html" class="main__form-reg">
+            <!-- <form action="./src/layout/register/register.html" class="main__form-reg">
                 <button class="title">Зарегистрироваться</button>
-            </form>
+            </form> -->
 
 
         </div>

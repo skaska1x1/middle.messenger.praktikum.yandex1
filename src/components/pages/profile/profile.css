@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    background-color: rgb(221, 199, 199);
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.back {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    margin: 6rem;
+    border-radius: 50%;
+    background-color: rgb(248, 243, 243);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.avatar__btn {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.user-name{
+    display: flex;
+    border-bottom: 1px solid #000;
+    margin-bottom: 2rem;
+}
+
+.user-info {
+    /* width: 40%; */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+    
+.user__info-login {
+    margin-bottom: 1rem;
+}
+.user__info-name {
+    margin-bottom: 1rem;
+}
+.user__info-soname {
+    margin-bottom: 1rem;
+}
+.user__info-mail {
+    margin-bottom: 1rem;
+}
+/* .user__info-tel {
+} */
+
+.profile-save {
+   
+    padding: 1rem;
+    border-radius: 11rem;
+    border: none;
+    transition: all 1s ease;
+}
+.profile-save:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+
+@media (max-width: 425px) {
+    .user-info {
+        width: 50%;
+        
+    }
+    .profile-save{
+        width: 50%;
+    }
+}
