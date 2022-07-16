@@ -1,0 +1,123 @@
+@import 'reset';
+@import 'normalize';
+@import '../../pages/home/components/chat/chat';
+// @import '../../pages/home/components/register/register';
+
+/*index start*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: rgb(238 217 217);
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+
+        .container {
+            padding: 1rem;
+            min-width: 500px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+            .main__form {
+                margin-top: 10px;
+                padding: 3rem;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                border-radius: 2rem;
+                background-color: #fff;
+
+                .title {
+                    text-align: center;
+                    font-size: 30px;
+                }
+
+                .login {
+                    & p {
+                        margin-bottom: .5rem;
+                    }
+
+                    & input {
+                        width: 100%;
+                        padding: .3rem;
+                        outline: 0;
+                        border: 1px solid #000;
+                        border-radius: 5px;
+                        padding: .7rem;
+                    }
+
+                    & input:hover {
+                        cursor: pointer;
+                    }
+                }
+
+                .password {
+                    & p {
+                        margin-bottom: .5rem;
+                    }
+
+                    & input {
+                        width: 100%;
+                        padding: .7rem;
+                        outline: 0;
+                        border: 1px solid #000;
+                        border-radius: 5px;
+                    }
+
+                    & input:hover {
+                        cursor: pointer;
+                    }
+                }
+
+                .login-page {
+                    border-radius: 11rem;
+                    border: none;
+                    padding: .6rem;
+                    margin-top: 2rem;
+                    margin-bottom: -13px;
+                    transition: all 1s ease;
+                    background-color: rgb(114, 46, 99);
+                    color: #fff;
+                    font-size: 22px;
+                    text-align: center;
+                    text-decoration: none;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: rgb(114, 46, 99, .6);
+                    }
+                }
+
+                .registration {
+                    background-color: rgb(240 231 231);
+                    border-radius: 11rem;
+                    padding: .6rem;
+                    transition: all 1s ease;
+                    text-align: center;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: rgba(196, 176, 176, 0.5);
+                    }
+
+                    & a {
+                        text-decoration: none;
+                        color: #000;
+                        transition: all 1s ease;
+                    }
+
+                    // & a:hover {
+                    //     background-color: rgba(196, 176, 176, 0.5);
+                    // }
+                }
+            }
+        }
+    }
+}
+
+/* index end*/
+@import '../../pages/home/components/register/register';
+@import '../../pages/profile/profile';
