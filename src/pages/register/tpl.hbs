@@ -1,0 +1,20 @@
+
+    <div class="card">
+        <div class="card__title">
+            
+            <form class="form" action="/">
+                <p style="text-align: center; font-size: 25px">Регистрация</p>
+                {{> fields label="Почта" type="email" name="email"}}
+                {{> fields label="Логин" type="text" name="login"}}
+                {{> fields label="Имя" type="text" name="first_name"}}
+                {{> fields label="Фамилия" type="text" name="second_name"}}
+                {{> fields label="Телефон" type="tel" name="phone"}}
+                {{> fields label="Пароль" type="password" name="password"}}
+                {{> fields label="Пароль еще раз" type="password" name="password"}}
+                <div class="btns">
+                    {{> button value='Регистрация' label="Регистрация" }}
+                    {{> button value='Войти' label="Авторизоваться"  }}
+                </div>
+            </form>
+        </div>
+    </div>

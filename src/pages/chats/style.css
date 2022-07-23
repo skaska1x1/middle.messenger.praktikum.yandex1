@@ -1,0 +1,38 @@
+
+.chats {
+    display: flex;
+    justify-content: space-between;
+}
+.chats__aside {
+    background-color: rgba(219, 194, 194, 0.5);
+}
+.chats__aside-top{
+    border-bottom: 1px solid #000;
+    text-align: right;
+}
+.chats__profile{
+    padding: 1rem;
+}
+.link {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+.input {
+    padding: 0 .5rem;
+    margin-bottom: 0.5rem;
+}
+.chats__aside-main{
+    background-color: grey;
+}
+.chats__expanded {
+    width: 100%;
+    
+    background-color: rgb(54, 125, 232);
+}
+.chats__expanded p{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    height: 100vh;
+}

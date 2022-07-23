@@ -353,7 +353,7 @@ body {
 }
 body .main {
   display: flex;
-  justify-content: space-between;
+  justify-content: center
 }
 body .main .container {
   padding: 1rem;

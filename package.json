@@ -2,17 +2,22 @@
   "name": "test",
   "version": "1.0.0",
   "description": "",
+  "sourse": "src/index.html",
   "scripts": {
-    "dev": "parcel serve index.html --open --port 3000",
-    "build": "parcel build index.html"
+    "start": "parcel serve src/index.html --open --port 3000",
+    "start1": "parcel src/index.html --open ",
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.6.2",
     "@parcel/transformer-sass": "^2.6.2",
-    "parcel": "^2.6.2"
+    "parcel": "^2.6.2",
+    "parcel-transformer-hbs": "^1.0.4"
   },
+  
   "engines": {
     "node": "v16.16.0",
     "npm": "8.11.0"
